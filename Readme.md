@@ -1,52 +1,79 @@
 # TutorMatch
 
-## Project Description
-The goal of this Project is to create a tool that enables students of universities to use the benefits of the learning techniques explained in the initial situation by combining concepts of peer tutoring and exchange programs. 
+## Project Overview
 
-The proposed tool is a web application.
-The intended target group for this web application is university students.
+**TutorMatch** is a web-based platform designed to connect university students for peer tutoring and academic support. By integrating elements of peer tutoring and exchange programs, TutorMatch enables students to find study partners based on shared academic interests.
 
-The application should provide a platform for students to register with information about which courses and topics relevant to academia they want to tutor, and which ones they want to be tutored in. Students are verified by their email issued by the university. For the limited scope of the projects, this project will only implement access for TU students and the ability to expand scope.
+## Purpose
 
-Afterwards, it should suggest matches with other users based on the overlaps in the topics chosen. For a match, both users have to provide tutoring in at least one topic the other user wants to be tutored in. Once matched, users should be able to use a chat function to get to know each other and plan further action. Further security and safety features like reporting users are explained in the feature list. 
+The platform provides a **matching system** where students can sign up to **offer tutoring in specific subjects** or **seek assistance in areas they need help with**. User verification is done via university-issued email addresses to ensure authenticity. Initially, access will be limited to **TU students**, with future expansion planned for other universities.
 
-Administrators should be able to add subjects, read user reports, block users from the app and add participating university identifiers.
+TutorMatch suggests study partners based on **mutual subject interests**. Matches occur when two students can **tutor each other in at least one subject**. Once matched, they can use the **built-in chat** to coordinate study sessions. Additional safety features, such as **user reporting**, ensure a secure learning environment.
 
-## Target Group
-**University students:** 
-These are individuals currently enrolled in universities who are seeking academic assistance or are willing to provide tutoring in specific subjects. University students come from various academic disciplines, ranging from humanities and social sciences to STEM fields and beyond. Their academic backgrounds shape their needs for tutoring and their ability to offer assistance in specific subjects. Many students prefer learning from their peers due to the informal and relatable nature of peer tutoring. They may feel more comfortable asking questions and seeking help from someone who has recently experienced similar academic challenges. Offering tutoring services provides students with opportunities to enhance their communication, leadership, and teaching skills. By tutoring others, they reinforce their own understanding of the subject matter and contribute to the academic success of their peers. In addition, university students often have busy schedules, balancing coursework, extracurricular activities, part-time jobs, and social commitments. Therefore, they value flexibility in accessing tutoring services, such as the ability to schedule sessions at convenient times and location.
+## Key Features for Administrators
 
-## Showcase
+Administrators have tools to:
+- **Manage available subjects** by adding or updating academic topics.
+- **Monitor user reports** to maintain a safe environment.
+- **Block users** who violate platform policies.
+- **Expand university access** by adding more institution email identifiers.
 
-**Register/Login:** 
-<br>
-Users can register/login with their university email address. After registration an email is sent to the specified address and a link to verify the account is provided.
-After verifying, the user can login to TutorMatch.
-![Screenshot 2024-07-04 201739](https://github.com/nikiblauer/tutormatch/assets/39680062/f214abb9-98e1-4900-ba8c-9faaa05a9d1b)
-<br>
-<br>
-**Matches:**
-<br>
-On this view, users can see their current matches with other students. Users can select their matches to view the details (Email, Phone, Address), they can start a private chat with them,
-they can give a rating from 1 to 5 stars and also give them feedback.
-![Screenshot 2024-07-04 201827](https://github.com/nikiblauer/tutormatch/assets/39680062/050e5640-c9c7-4ac5-bf62-3375a577e7d0)
-<br>
-![Screenshot 2024-07-04 201901](https://github.com/nikiblauer/tutormatch/assets/39680062/18c40bc4-2276-44ba-8be4-54019480a425)
-<br>
-<br>
-**Chat:**
-<br>
-The users can chat using the private real-time chat function of TutorMatch. Using this chat they can setup a time and place to study together. 
-![Screenshot 2024-07-04 201918](https://github.com/nikiblauer/tutormatch/assets/39680062/fb9412fd-7e0a-4383-90f9-3edf8c1cf472)
-<br>
-<br>
-**Profile:**
-<br>
-Users can edit their profile information in this view. They can optionally also provide an address and a phone number other users can use to contact them. 
-Subjects are also selected in this view. All this information is then used by the TutorMatch matching algorithm to bring together students with their peers.
-![Screenshot 2024-07-04 201938](https://github.com/nikiblauer/tutormatch/assets/39680062/8a05273a-723b-42b6-ab23-9444b4861314)
-![Screenshot 2024-07-04 201950](https://github.com/nikiblauer/tutormatch/assets/39680062/9c5df77f-4a4d-4fdf-8b67-fc0a906f41c8)
+---
 
+## Target Users
 
+### **University Students**
+TutorMatch is designed for **university students** seeking **academic support** or wanting to **share their expertise** through peer tutoring. The platform serves students across various disciplines, including humanities, social sciences, and STEM fields.
 
+### **Why Peer Tutoring?**
+- **Relatable Learning**: Students often feel more comfortable learning from peers rather than professors.  
+- **Skill Development**: Tutors reinforce their knowledge while improving communication and teaching abilities.  
+- **Flexible Scheduling**: With busy academic and social lives, students value the ability to arrange tutoring at convenient times.  
 
+---
+
+## Platform Features
+
+### **Registration & Login**
+- Users **register** using their university email.
+- A **verification link** is sent via email for account activation.
+- Once verified, users can **log in** and access the platform.
+
+![Registration Screenshot](https://github.com/nikiblauer/tutormatch/assets/39680062/f214abb9-98e1-4900-ba8c-9faaa05a9d1b)
+
+---
+
+### **Matchmaking**
+- The platform **suggests matches** based on common tutoring subjects.
+- Users can view match details, including **email, phone number, and address** (if shared).
+- Options include:
+  - **Starting a private chat**
+  - **Providing a rating (1–5 stars)**
+  - **Leaving feedback on a match**
+
+![Matchmaking Screenshot](https://github.com/nikiblauer/tutormatch/assets/39680062/050e5640-c9c7-4ac5-bf62-3375a577e7d0)  
+![Match Details Screenshot](https://github.com/nikiblauer/tutormatch/assets/39680062/18c40bc4-2276-44ba-8be4-54019480a425)
+
+---
+
+### **Real-Time Chat**
+- Students can **communicate instantly** through a built-in chat.
+- This feature allows them to **coordinate study sessions** efficiently.
+
+![Chat Screenshot](https://github.com/nikiblauer/tutormatch/assets/39680062/fb9412fd-7e0a-4383-90f9-3edf8c1cf472)
+
+---
+
+### **User Profile Management**
+- Students can update **personal details**, including contact information.
+- They can **select tutoring subjects**, which TutorMatch uses to optimize matchmaking.
+- Profile settings determine how much information is **shared with matches**.
+
+![Profile Screenshot 1](https://github.com/nikiblauer/tutormatch/assets/39680062/8a05273a-723b-42b6-ab23-9444b4861314)  
+![Profile Screenshot 2](https://github.com/nikiblauer/tutormatch/assets/39680062/9c5df77f-4a4d-4fdf-8b67-fc0a906f41c8)
+
+---
+
+## Conclusion
+
+TutorMatch aims to make **peer tutoring accessible and effective** for university students by leveraging **smart matchmaking**, **real-time communication**, and **user-driven feedback**. Whether students want to **teach, learn, or collaborate**, the platform provides an intuitive and secure way to connect with academic peers.
